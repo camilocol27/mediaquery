@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" text="text.css" href="mediaquery.css">
+	<link rel="stylesheet" media="mediatype and|not|only (media feature)" href="mediaquery.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Sketer</title>
+	<style>
+
+			/**{
+			margin: 0;
+			padding: 0;
+		}*/
+		body{
+			width: 100%;
+			height: 100%;
+		}
+
+		img.photo{
+			width: 100%;
+			background-size: cover;
+		}
+
+		nav{
+			
+			background: #34495e;
+			height: 50px;
+			
+		}
+		ul{
+			height: 50px;
+			list-style: none;
+		}
+
+		nav a{
+			text-decoration: none;
+			color: #fff;
+			display: inline-block;
+			float: left;
+			padding: 15px;
+
+		}
+		
+		nav a:hover{
+			background: #e67e22;
+		}
+		.main-container{
+			padding-left: 200px;
+			display: block;
+			float: left;
+			height: 400px;
+			margin-top: 30px;
+		}
+		
+		#c-one{
+
+			width: 400px;
+			display: block;
+			text-align: center;
+			float: left;
+			position: relative;
+			padding: 20px;
+			text-align: center;
+			border-right: 1px solid black;
+
+		
+		}
+		#c-two{
+			display: block;
+			width: 400px;
+			float: left;
+			padding: 20px;
+			text-align: center;
+			
+		}
+		footer{
+			clear: both;
+			display: block;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			text-align: center;
+			background: rgba(0,0,0,.3);
+		}
+
+		
+		@media all and (max-width:500px){
+			
+			body{
+				background: black;
+				margin: auto;
+				color: #fff;
+			}
+			.main-container{
+				padding-left: 0;
+			}	
+
+			p{
+				font-size: .6em;
+			}
+			div.one .two{
+				float: left;
+				max-width: 350;
+				width: 300px;
+				border: 1px solid #fff;
+
+			}
+			
+		}
+			
+
+	</style>
+</head>
+	<body>
+		<nav>
+
+			<ul class="nav">
+				<li> <a href="#">Home</a></li>
+				<li> <a href="#">About Us</a></li>
+				<li> <a href="#">Store</a></li>
+			</ul>		
+		</nav>
+
+		<img class="photo" src="skate2.jpg" alt="skate">
+		
+		
+		<div class="main-container">
+			<div id="c-one"class="container">
+
+				<h2 class="skate"><strong>Skete</strong></h2>
+				<p class="one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ratione exercitationem itaque similique ea commodi voluptates, doloremque reprehenderit natus iure veritatis laudantium! Similique, quos. Dolores aliquam ipsa atque inventore Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nisi dolorum amet velit aut cum distinctio eius iure, placeat dolorem rem, quod quos, corrupti impedit cupiditate harum. Modi, ad. Nihil! 
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptatibus cum odit laboriosam, ducimus nulla at architecto placeat delectus ut incidunt earum velit, tempora natus quaerat id inventore. Assumenda, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, aut, sint! Nihil consectetur at, dicta deleniti dolore odio voluptates soluta reiciendis enim nesciunt quae magni et, asperiores laudantium sunt minus.</p>
+			</div>
+
+			<div id="c-two" class="container">
+
+				<h2 class="espn"><strong>ESPN SPORT</strong></h2>
+				<p class="two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ratione exercitationem itaque similique ea commodi voluptates, doloremque reprehenderit natus iure veritatis laudantium! Similique, quos. Dolores aliquam ipsa atque inventore Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nisi dolorum amet velit aut cum distinctio eius iure, placeat dolorem rem, quod quos, corrupti impedit cupiditate harum. Modi, ad. Nihil! 
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptatibus cum odit laboriosam, ducimus nulla at architecto placeat delectus ut incidunt earum velit, tempora natus quaerat id inventore. Assumenda, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, aut, sint! Nihil consectetur at, dicta deleniti dolore odio voluptates soluta reiciendis enim nesciunt quae magni et, asperiores laudantium sunt minus.</p>
+
+			</div>
+		</div>
+		<hr>
+
+	<footer>
+		<span class="twiter"><a href="https://twitter.com/?lang=en"target="_blank"><img src="twiterlogo.png" alt="" height="30"></a></span>
+		
+		<span class="face"><a href="https://www.facebook.com/" target="_blank"><img src="facebook-logo.gif" alt="" height="30"></a></span>
+	</footer>
+</body>
+</html>
